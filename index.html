@@ -1,0 +1,216 @@
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <link rel="stylesheet" type = "text/css" href = "CSS/estilos.css"/>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+</head>
+<body>
+    <nav id = "menu">
+            <div class = "itens logo" >
+                    <a href = "https://twitter.com/home"> 
+                        <div>
+                        <img src = "img/logo.svg">
+                        </div>
+                    </a>
+              </div>
+          <div class = "itens">
+                <a href = "https://twitter.com/home">
+                    <div>
+                    <img src = "img/home.svg" alt="Home">
+                    <span style="color: #1da1f2" >Página inicial </span>
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div >
+                    <img src = "img/hashtag.svg" alt="Hashtag">
+                    Explorar
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home">
+                    <div> 
+                    <img src = "img/notify.svg" alt="Notificações">
+                    Notificações
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div>
+                    <img src = "img/message.svg" alt="Mensagens">
+                    Mensagens
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div>
+                    <img src = "img/save.svg" alt="Salvos">
+                    Itens Salvos
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div>
+                    <img src = "img/list.svg" alt="Listas">
+                    Listas
+                    </div>
+                </a>
+          </div>
+    
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div>
+                    <img id = "perfil"src = "img/dog.jpg" alt="Perfil">
+                    Perfil
+                    </div>
+                </a>
+          </div>
+
+          <div class = "itens">
+                <a href = "https://twitter.com/home"> 
+                    <div>
+                    <img src = "img/more.svg" alt="Mais">
+                    Mais
+                    </div>
+                </a>
+          </div>
+         <div id = "tweet-button">
+             <a href="https://twitter.com/compose/tweet" width = "64">
+                <div>
+                    Tweetar
+                </div>
+            </a>
+
+         </div>
+    </nav>
+
+    <header id =  "cabecalho">
+        <h1>Página Inicial
+        <img src="img/highlights.svg" alt="High" style="float: right">
+        </h1>
+    </header>
+
+    <!-- Feed -->
+
+    <section>
+        <div id = "feed">
+        <div  id = "teste">
+            <div style="display: flex;">
+                <img class="perfil" src = "img/dog.jpg" alt="Perfil" style="flex-direction: row;">
+                <textarea cols="53" placeholder="O que está acontecendo?" maxlength="280" style="flex-direction: row;"></textarea>
+           
+            </div>
+            <div id = "icons" style="display: flex;">
+                <img src = "img/picture.svg" alt="picture">
+                <img src = "img/gif.svg" alt="gif"> 
+                <img src = "img/bar-chart.svg" alt="bar-chart">
+                <img src = "img/emote.svg" alt="emote">
+                <a id="Tweetar" href="#">Tweetar</a>
+          </div>
+            </div>
+
+        </div>
+
+
+        <div class = tweets >
+            <div style="display: flex;">
+                <img class="perfil" src = "img/dog.jpg" alt="Perfil" style="flex-direction: row;">
+                    <span class = "name" style="flex-direction: row;">
+                    Willian Sotocorno
+                </span>
+                <span class ="user" style="flex-direction: row;">
+                     @Will_Sotoo . 5 min
+                </span>
+            </div>
+            <div class = "post">
+                <P>
+                Mais alguém com problema pra acessar a internet?
+                </P>
+                <div style="display: flex;">
+
+                <p style="flex-direction: row">
+                <img class="icons" src="img/comments.svg" alt="comments" style="flex-direction: row;">
+                100
+                </p>
+                <p style="flex-direction: row;">
+                <img class="icons" src="img/retweet.svg" alt="retweet" style="flex-direction: row;">
+                150
+                </p>
+                <p style="flex-direction: row;">
+                <img class="icons" src="img/like.svg" alt="like" style="flex-direction: row;">
+                200
+                </p>
+                <p style="flex-direction: row;">
+                <img class="icons" src="img/send.svg" alt="send" style="flex-direction: row;">
+         
+                </p>
+            </div>
+
+            
+        </div>
+        
+    </section>
+
+    <!-- Assuntos para você-->
+    <aside>
+        <div id = "search" style="display:flex">
+            <img src = "img/search.svg" alt="search" style="flex-direction: row;">
+            <textarea rows="1" placeholder="Buscar no Twitter" maxlength="280" style="flex-direction: row;"></textarea>
+        </div>
+
+        <div id = "Assuntos">
+            <h1>
+                Assuntos para você
+                <img src="img/engine.svg" alt="engine" style="float: right;">
+            </h1>
+
+            <div class = "Sugestão">
+                <p>
+                    Cocielo
+                </p>
+            </div>
+            <div class = "Sugestão">
+                <p>
+                    #ProvaDeFogo
+                </p>
+            </div>
+            <div class = "Sugestão">
+                <p>
+                    #QueTourFoiEssa
+                </p>
+
+                <p class = "legenda">
+                    Todo mundo tem aquela tour onde queria morar. Qual é a sua?
+                </p>
+
+                <p class = patrocinador>
+                    Promovido por Skol
+                </p>
+            </div>
+            <div class = "Sugestão">
+                <p>
+                    #sextou
+                </p>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+</body>
+</html>
